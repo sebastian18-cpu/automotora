@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Automotora Ejemplo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .auto {
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            margin: 15px 0;
+            padding: 15px;
+        }
+        .auto h2 {
+            margin: 0;
+            color: #333;
+        }
+        .precio {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Automotora Ejemplo</h1>
+        <p>Encuentra tu próximo vehículo</p>
+    </header>
+
+    <section>
+        <div class="auto">
+            <h2>Toyota Corolla 2022</h2>
+            <p>Año: 2022</p>
+            <p>Kilometraje: 15.000 km</p>
+            <p class="precio">$12.000.000</p>
+        </div>
+
+        <div class="auto">
+            <h2>Hyundai Tucson 2023</h2>
+            <p>Año: 2023</p>
+            <p>Kilometraje: 5.000 km</p>
+            <p class="precio">$18.000.000</p>
+        </div>
+
+        <div class="auto">
+            <h2>Chevrolet Spark 2021</h2>
+            <p>Año: 2021</p>
+            <p>Kilometraje: 30.000 km</p>
+            <p class="precio">$7.500.000</p>
+        </div>
+    </section>
+</body>
+</html>
